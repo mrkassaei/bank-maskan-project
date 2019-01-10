@@ -1,0 +1,214 @@
+body{
+    font-family: vazir;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+    
+  }
+  .owl-buttons {
+    display: none;
+  }
+  .owl-carousel:hover .owl-buttons {
+    display: block;
+  }
+  
+  .owl-item {
+    text-align: center;
+  }
+  
+  .owl-theme .owl-controls .owl-buttons div {
+    background: transparent;
+    color: #869791;
+    font-size: 40px;
+    line-height: 90px;
+    margin: 0;
+    padding: 0 60px;
+    position: absolute;
+    top: 0;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-prev {
+    left: 0;
+    padding-left: 20px;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-next {
+    right: 0;
+    padding-right: 20px;
+  }
+  /* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+  .owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	float: left;
+}
+.owl-carousel .owl-wrapper-outer{
+	float: left;
+	overflow: hidden;
+	position: relative;
+	width: 200%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+.owlleft {
+    background: url("http://placehold.it/20x20") left center no-repeat;
+    color: red;
+    display: inline-block;
+    padding-left: 20px;
+  }
+  .owlright {
+    background: url("http://placehold.it/20x20") right center no-repeat;
+    color: green;
+    display: inline-block;
+    padding-right: 20px;
+  }
+  /*************************************** tabs ******************************************/
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+/* @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
+
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}/*html,body{height:100vh;}body{display:flex;align-items:center;justify-content:center;padding:40px;font:14px/1.5 'Open Sans',sans-serif;color:#345;background:#f0f2f4;}
+*/
+p:not(:last-child) {
+  margin: 0 0 20px;
+}
+
+main {
+  /* max-width: 800px; */
+  padding: 40px;
+  border: 1px solid rgba(0,0,0,.2);
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #abc;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #abc;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+/* label[for*='1']:before { content: '\f1cb'; }
+label[for*='2']:before { content: '\f17d'; }
+label[for*='3']:before { content: '\f16c'; }
+label[for*='4']:before { content: '\f171'; } */
+
+label:hover {
+  color: #789;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: rgb(252, 106, 8);
+  border: 1px solid #abc;
+  border-top: 2px solid rgb(252, 106, 8);
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  label {
+    padding: 15px;
+  }
+}
+/* *************************** */
+.divider{
+  color: coral;
+}

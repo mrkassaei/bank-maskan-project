@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Vazir;
+  src: url('vzfonts/Vazir.eot');
+  src: url('vzfonts/Vazir.eot?#iefix') format('embedded-opentype'),
+       url('vzfonts/Vazir.woff2') format('woff2'),
+       url('vzfonts/Vazir.woff') format('woff'),
+       url('vzfonts/Vazir.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('vzfonts/Vazir-Bold.eot');
+  src: url('vzfonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+       url('vzfonts/Vazir-Bold.woff2') format('woff2'),
+       url('vzfonts/Vazir-Bold.woff') format('woff'),
+       url('vzfonts/Vazir-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('vzfonts/Vazir-Light.eot');
+  src: url('vzfonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+       url('vzfonts/Vazir-Light.woff2') format('woff2'),
+       url('vzfonts/Vazir-Light.woff') format('woff'),
+       url('vzfonts/Vazir-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('vzfonts/Vazir-Medium.eot');
+  src: url('vzfonts/Vazir-Medium.eot?#iefix') format('embedded-opentype'),
+       url('vzfonts/Vazir-Medium.woff2') format('woff2'),
+       url('vzfonts/Vazir-Medium.woff') format('woff'),
+       url('vzfonts/Vazir-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('vzfonts/Vazir-Thin.eot');
+  src: url('vzfonts/Vazir-Thin.eot?#iefix') format('embedded-opentype'),
+       url('vzfonts/Vazir-Thin.woff2') format('woff2'),
+       url('vzfonts/Vazir-Thin.woff') format('woff'),
+       url('vzfonts/Vazir-Thin.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url('vzfonts/Vazir-Black.eot');
+  src: url('vzfonts/Vazir-Black.eot?#iefix') format('embedded-opentype'),
+       url('vzfonts/Vazir-Black.woff2') format('woff2'),
+       url('vzfonts/Vazir-Black.woff') format('woff'),
+       url('vzfonts/Vazir-Black.ttf') format('truetype');
+  font-weight: 900;
+}
